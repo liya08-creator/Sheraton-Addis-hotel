@@ -1,0 +1,1237 @@
+/** =============================================
+   RESPONSIVE MEDIA QUERIES
+   Tablet: max-width 1024px
+   Phone: max-width 768px
+   Small Phone: max-width 480px
+   ============================================= */
+ 
+/* =============================================
+   TABLET — 1024px
+   ============================================= */
+@media (max-width: 1024px) {
+ 
+  /* Header */
+  .head2 {
+    padding: 0 20px;
+  }
+ 
+  .header-links ul {
+    gap: 18px;
+  }
+ 
+  .head3 {
+    padding: 0 10px;
+    gap: 4px;
+  }
+ 
+  .text {
+    font-size: 17px;
+    padding: 10px;
+  }
+ 
+  .head3-right {
+    gap: 15px;
+    padding: 0 15px;
+  }
+ 
+  /* Section 1 — Booking Bar */
+  .section1 {
+    padding: 15px 15px;
+  }
+ 
+  .sec1-block {
+    padding: 8px 12px;
+    gap: 10px;
+  }
+ 
+  .label {
+    font-size: 13px;
+  }
+ 
+  .value {
+    font-size: 13px;
+  }
+ 
+  /* Section 3 — Welcome */
+  .section3 {
+    padding: 30px 30px 30px 40px;
+    gap: 20px;
+  }
+ 
+  .sec3-img img {
+    width: 180px;
+    padding-left: 30px;
+    padding-top: 40px;
+  }
+ 
+  .sec3-block {
+    padding-left: 20px;
+  }
+ 
+  .sec3-txt2 {
+    font-size: 32px;
+  }
+ 
+  /* Section 4 — Notice */
+  .box {
+    margin: 30px 50px;
+  }
+ 
+  /* Section 5 — Rooms */
+  .sec5-txt {
+    padding-left: 50px;
+  }
+ 
+  .rooms {
+    grid-auto-columns: 360px;
+    width: 95%;
+  }
+ 
+  /* Section 6 — Offers */
+  .sec6-txt {
+    padding-left: 50px;
+  }
+ 
+  .offer {
+    width: 95%;
+    gap: 15px;
+  }
+ 
+  .offer-card {
+    height: 320px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+ 
+  /* Section 7 — Food & Beverage */
+  .sec7-img {
+    padding-left: 30px;
+  }
+ 
+  .sec7-img img {
+    height: 380px;
+  }
+ 
+  .cuisine-detail {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+ 
+  .cuisine-title {
+    font-size: 32px;
+  }
+ 
+  .sec7-detail {
+    font-size: 16px;
+  }
+ 
+  /* Section 8 — Place Cards */
+  .places {
+    width: 95%;
+    gap: 15px;
+  }
+ 
+  .place-card {
+    height: auto;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+ 
+  .place-info h3 {
+    font-size: 24px;
+  }
+ 
+  /* Section 9 — Shaheen */
+  .sec9-txt {
+    padding-left: 50px;
+  }
+ 
+  .sec9-img img {
+    width: 500px;
+    margin-right: 30px;
+  }
+ 
+  /* Section 10 — Meetings */
+  .sec10-txt {
+    padding-left: 50px;
+  }
+ 
+  .sec10-img img {
+    width: 480px;
+    margin-right: 30px;
+  }
+ 
+  /* Section 12 — Villa Images */
+  .image-row {
+    height: 300px;
+  }
+ 
+  /* Section 14 — Executive */
+  .sec14-txt {
+    padding-left: 30px;
+  }
+ 
+  .sec14-img img {
+    width: 600px;
+  }
+ 
+  /* Amenities */
+  .my-tabs {
+    width: 90%;
+  }
+ 
+  .amenities-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+ 
+  /* Fitness/Swimming */
+  .my-tabs2 {
+    width: 95%;
+  }
+ 
+  /* Location */
+  .location-left {
+    width: 45%;
+  }
+ 
+  .location-right {
+    width: 55%;
+  }
+ 
+  .location-left h2 {
+    font-size: 28px;
+  }
+ 
+  /* Property Details & FAQ */
+  .property-details {
+    margin: 0 10%;
+  }
+ 
+  .faq-section {
+    margin: 0 5%;
+  }
+ 
+  .new1 {
+    margin-left: 10%;
+  }
+ 
+  /* History sections */
+  .secondholder {
+    margin-left: 10%;
+  }
+ 
+  .thirdholder {
+    margin-right: 10%;
+  }
+ 
+  .fifthholders summary,
+  .firstholder23 summary {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+ 
+  .fifthholders p,
+  .firstholder23 p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+ 
+  .firstholder21 {
+    margin-left: 5%;
+    gap: 20%;
+  }
+ 
+  .firstholder22 {
+    margin-left: 5%;
+    margin-right: 3%;
+    gap: 10%;
+  }
+ 
+  /* Footer */
+  .footer-links-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+ 
+  .footer-address {
+    grid-column: 1 / -1;
+  }
+}
+ 
+ 
+/* PHONE — 768px*/
+@media (max-width: 768px) {
+ 
+  /* Header */
+  .head1 {
+    padding: 0 20px;
+  }
+ 
+  .head2 {
+    flex-direction: row;
+    align-items: center;
+    padding: 0 15px;
+  }
+
+  .head2::after {
+    content: "Sheraton Addis, a Luxury Collection Hotel, Addis Ababa";
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: normal;
+    opacity: 0.9;
+    border-left: 1px solid rgba(255,255,255,0.4);
+    padding-left: 15px;
+    margin-left: 10px;
+    line-height: 1.3;
+  }
+ 
+  .header-links {
+    display: none;
+  }
+ 
+  .header-links::-webkit-scrollbar {
+    display: none;
+  }
+ 
+  .header-links ul {
+    gap: 16px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    padding-bottom: 4px;
+  }
+
+ 
+  .header-links ul li a {
+    font-size: 13px;
+  }
+ 
+  .head3{
+    display: none;
+  }
+  .section1{
+    display: none;
+  }
+  
+ 
+  /* Gallery */
+  .gallery {
+    height: 240px;
+  }
+ 
+  /* Section 3 — Welcome */
+  .section3 {
+    flex-direction: column;
+    padding: 30px 25px;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+ 
+  .sec3-img {
+    display: block; 
+    align-items: center;
+  }
+ 
+  .sec3-block {
+    padding-left: 0;
+    width: 100%;
+    align-items: center;
+  }
+ 
+  .sec3-txt1 {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .sec3-txt2 {
+    font-size: 28px;
+    text-align: center;
+  }
+ 
+  .sec3-txt3 {
+    font-size: 14px;
+  }
+ 
+  /* Section 4 — Notice */
+  .box {
+    margin: 20px 20px;
+  }
+ 
+  /* Section 5 — Rooms */
+  .sec5-txt {
+    padding-left: 25px;
+    font-size: 24px;
+  }
+ 
+  .rooms {
+    grid-auto-columns: 290px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 0 5px;
+  }
+ 
+  .room-card {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+ 
+  .room-card img {
+    height: 200px;
+  }
+ 
+  /* Section 6 — Offers */
+  .sec6-txt {
+    padding-left: 25px;
+    font-size: 24px;
+  }
+ 
+  .offer {
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: 30px auto;
+    gap: 20px;
+  }
+ 
+  .offer-card {
+    height: 260px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+ 
+  /* Section 7 — Food & Beverage */
+  .sec7-txt {
+    font-size: 24px;
+    padding-bottom: 40px;
+  }
+ 
+  .cuisine-card {
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+  }
+ 
+  .sec7-img {
+    padding-left: 0;
+    width: 100%;
+  }
+ 
+  .sec7-img img {
+    height: 260px;
+    width: 100%;
+    border-radius: 12px;
+  }
+ 
+  .cuisine-detail {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+ 
+  .cuisine-title {
+    font-size: 26px;
+  }
+ 
+  .sec7-detail {
+    font-size: 15px;
+  }
+ 
+  /* Section 8 — Place Cards */
+  .places {
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: 30px auto;
+  }
+ 
+  .place-card {
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+ 
+  .place-card img {
+    height: 200px;
+  }
+ 
+  /* Section 9 — Shaheen */
+  .section9 {
+    height: auto;
+    padding-bottom: 30px;
+  }
+ 
+  .resturant {
+    flex-direction: column;
+    gap: 20px;
+  }
+ 
+  .sec9-txt {
+    padding: 30px 25px 0;
+  }
+ 
+  .sec9-img img {
+    width: 100%;
+    height: 260px;
+    margin-right: 0;
+    object-fit: cover;
+  }
+ 
+  /* Section 10 — Meetings */
+  .section10 {
+    height: auto;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+  }
+ 
+  .sec10-head {
+    padding: 30px 25px 30px;
+  }
+ 
+  .sec10-head-title {
+    font-size: 24px;
+  }
+ 
+  .sec10-head-detail {
+    font-size: 15px;
+  }
+ 
+  .theatr {
+    flex-direction: column;
+    gap: 20px;
+  }
+ 
+  .sec10-txt {
+    padding: 0 25px;
+  }
+ 
+  .sec10-title {
+    font-size: 22px;
+    padding-top: 0;
+    padding-bottom: 12px;
+  }
+ 
+  .sec10-img img {
+    width: 100%;
+    height: 260px;
+    margin-right: 0;
+    border-radius: 0;
+  }
+ 
+  /* Section 11 — VIP Villas */
+  .section11 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+ 
+  .sec11-head-title {
+    font-size: 24px;
+  }
+ 
+  .sec11-head-detail {
+    font-size: 15px;
+  }
+ 
+  /* Section 12 — Villa Images */
+  .image-row {
+    height: 220px;
+  }
+ 
+  .sec12-img.small {
+    flex: 0.5;
+  }
+ 
+  /* Section 13 — Executive Suites */
+  .section13 {
+    padding: 60px 25px;
+  }
+ 
+  .sec13-head-title {
+    font-size: 22px;
+  }
+ 
+  .sec13-head-detail {
+    font-size: 14px;
+    text-align: center;
+  }
+ 
+  /* Section 14 — Stay in Style */
+  .section14 {
+    height: auto;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+ 
+  .furniture {
+    flex-direction: column;
+    gap: 20px;
+  }
+ 
+  .sec14-txt {
+    padding: 30px 25px 0;
+  }
+ 
+  .sec14-title {
+    font-size: 24px;
+  }
+ 
+  .sec14-img img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+  }
+ 
+  /* Amenities */
+  .first p {
+    font-size: 24px;
+  }
+ 
+  .my-tabs {
+    width: 95%;
+  }
+ 
+  .labels-row {
+    gap: 1rem;
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding-bottom: 0;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    scrollbar-width: none;
+  }
+ 
+  .labels-row::-webkit-scrollbar {
+    display: none;
+  }
+ 
+  .my-tabs label {
+    font-size: 13px;
+    flex-shrink: 0;
+  }
+ 
+  .amenities-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem 0.8rem;
+  }
+ 
+  /* Fitness/Swimming */
+  .my-tabs2 {
+    width: 95%;
+  }
+ 
+  .card-horizontal {
+    flex-direction: column;
+  }
+ 
+  .card-horizontal img {
+    width: 100%;
+    height: 220px;
+  }
+ 
+  .card-text {
+    width: 100%;
+    padding: 1.5rem;
+  }
+ 
+  .cards-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+ 
+  .card-image {
+    height: 260px;
+  }
+ 
+  /* Location */
+  .location-section {
+    flex-direction: column;
+    padding: 2.5rem 5%;
+    gap: 2rem;
+  }
+ 
+  .location-left {
+    width: 100%;
+  }
+ 
+  .location-right {
+    width: 100%;
+    min-height: 300px;
+  }
+ 
+  .location-left h2 {
+    font-size: 26px;
+    margin-left: 0;
+  }
+ 
+  .location-address p,
+  .location-address a {
+    margin-left: 0;
+    font-size: 16px;
+  }
+ 
+  .transport-accordion {
+    margin-left: 0;
+  }
+ 
+  .transport-accordion summary {
+    font-size: 15px;
+  }
+ 
+  /* Plan section */
+  .plan-section {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    padding: 2rem 5%;
+  }
+ 
+  .plan-btn {
+    width: 100%;
+    text-align: center;
+  }
+ 
+  /* Hotel History */
+  .mainholder {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+ 
+  .secondholder {
+    margin-left: 5%;
+    padding-top: 5%;
+    font-size: 16px;
+  }
+ 
+  .thirdholder {
+    margin-right: 0;
+    padding: 0 5%;
+  }
+ 
+  .thirdholder img {
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+  }
+ 
+  .fifthholders summary,
+  .firstholder23 summary {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+ 
+  .fifthholders p,
+  .firstholder23 p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+ 
+  /* Sections 21, 22 */
+  .firstholder21 {
+    grid-template-columns: 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 20px;
+  }
+ 
+  .secondholder21 img {
+    width: 100%;
+    height: 240px;
+    border-radius: 12px;
+  }
+ 
+  .secondholder21 p {
+    padding-top: 0;
+  }
+ 
+  .firstholder22 {
+    grid-template-columns: 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 20px;
+    padding: 20px;
+  }
+ 
+  .secondholder22 img {
+    width: 100%;
+    height: 240px;
+    border-radius: 12px;
+  }
+ 
+  .secondholder22 p {
+    text-decoration: none;
+    padding-bottom: 10px;
+  }
+ 
+  /* Property Details */
+  .property-details {
+    margin: 0 5%;
+  }
+ 
+  .prop-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+ 
+  /* FAQ */
+  .new1 {
+    margin-left: 5%;
+    margin-top: 8%;
+  }
+ 
+  .faq-section {
+    margin: 0 3%;
+  }
+ 
+  .faq-two-col {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+ 
+  /* Footer */
+  .footer-links-row {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+ 
+  .footer-hotel-name {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+ 
+  .footer-bonvoy {
+    padding: 1.5rem 5%;
+  }
+ 
+  .footer-middle {
+    padding: 2rem 5%;
+  }
+ 
+  .footer-breadcrumb {
+    padding: 1rem 5%;
+    flex-wrap: wrap;
+    font-size: 12px;
+  }
+ 
+  .footer-accordions {
+    padding: 0 5%;
+  }
+ 
+  .footer-social {
+    padding: 1.5rem 5%;
+    gap: 1rem;
+  }
+ 
+  .footer-copyright {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1rem 5%;
+  }
+ 
+  .footer-legal {
+    padding: 0 5% 1.5rem;
+    gap: 6px 1rem;
+  }
+ 
+  .footer-version {
+    padding: 1rem 5%;
+  }
+}
+ 
+ 
+/* =============================================
+   SMALL PHONE — 480px
+   ============================================= */
+@media (max-width: 480px) {
+ 
+  /* Header */
+  .head1 {
+    padding: 0 15px;
+    height: 45px;
+  }
+ 
+  .sign-in-btn {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+ 
+  .nav-logo img {
+    height: 20px;
+  }
+ 
+  .head2 {
+    padding: 10px 15px;
+  }
+ 
+  .logo-pic img {
+    width: 90px;
+  }
+ 
+  .header-links ul li a {
+    font-size: 12px;
+  }
+ 
+  /* head3 */
+  .text {
+    font-size: 13px;
+    padding: 5px;
+  }
+ 
+  .dot {
+    width: 11px;
+    height: 11px;
+  }
+ 
+  .rating-text {
+    font-size: 11px;
+  }
+ 
+  .head3-links a {
+    font-size: 12px;
+  }
+ 
+  /* Section 1 */
+  .label {
+    font-size: 11px;
+  }
+ 
+  .value {
+    font-size: 12px;
+  }
+ 
+  .sec1-btn {
+    font-size: 13px;
+    padding: 12px;
+  }
+ 
+  /* Gallery */
+  .gallery {
+    height: 200px;
+  }
+ 
+  /* Section 3 */
+  .sec3-txt1 {
+    font-size: 11px;
+  }
+ 
+  .sec3-txt2 {
+    font-size: 22px;
+  }
+ 
+  .sec3-txt3 {
+    font-size: 13px;
+  }
+ 
+  /* Section 4 */
+  .box {
+    margin: 15px;
+    padding: 15px;
+  }
+ 
+  .title {
+    font-size: 14px;
+  }
+ 
+  .sec4-txt {
+    font-size: 13px;
+  }
+ 
+  /* Section 5 */
+  .sec5-txt {
+    font-size: 22px;
+    padding-left: 15px;
+  }
+ 
+  .rooms {
+    grid-auto-columns: 260px;
+  }
+ 
+  .room-card img {
+    height: 170px;
+  }
+ 
+  .room-info h3 {
+    font-size: 17px;
+  }
+ 
+  /* Section 6 */
+  .sec6-txt {
+    font-size: 22px;
+    padding-left: 15px;
+  }
+ 
+  .offer {
+    width: 95%;
+  }
+ 
+  .offer-card {
+    height: 220px;
+  }
+ 
+  .sec6-title {
+    font-size: 17px;
+  }
+ 
+  /* Section 7 */
+  .sec7-txt {
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+  }
+ 
+  .cuisine-title {
+    font-size: 22px;
+  }
+ 
+  .sec7-detail {
+    font-size: 14px;
+  }
+ 
+  .sec7-img img {
+    height: 220px;
+  }
+ 
+  /* Section 8 */
+  .place-info h3 {
+    font-size: 22px;
+  }
+ 
+  .place-details {
+    font-size: 13px;
+  }
+ 
+  /* Section 9 */
+  .sec9-title {
+    font-size: 22px;
+  }
+ 
+  .sec9-details {
+    font-size: 13px;
+  }
+ 
+  .sec9-img img {
+    height: 220px;
+  }
+ 
+  /* Section 10 */
+  .sec10-head-title {
+    font-size: 22px;
+  }
+ 
+  .sec10-head-detail {
+    font-size: 13px;
+  }
+ 
+  .sec10-title {
+    font-size: 20px;
+  }
+ 
+  .sec10-img img {
+    height: 220px;
+  }
+ 
+  /* Section 11 */
+  .section11 {
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+ 
+  .sec11-head-title {
+    font-size: 22px;
+  }
+ 
+  .sec11-head-detail {
+    font-size: 13px;
+  }
+ 
+  /* Section 12 */
+  .image-row {
+    height: 160px;
+    gap: 5px;
+  }
+ 
+  /* Section 13 */
+  .section13 {
+    padding: 40px 15px;
+  }
+ 
+  .sec13-head-title {
+    font-size: 20px;
+  }
+ 
+  /* Section 14 */
+  .sec14-title {
+    font-size: 22px;
+  }
+ 
+  .sec14-details {
+    font-size: 13px;
+  }
+ 
+  .sec14-img img {
+    height: 220px;
+  }
+ 
+  /* Amenities */
+  .first p {
+    font-size: 20px;
+    margin-bottom: 5%;
+  }
+ 
+  .my-tabs {
+    width: 100%;
+    padding: 0 10px;
+  }
+ 
+  .my-tabs label {
+    font-size: 12px;
+  }
+ 
+  .amenities-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 0.5rem;
+  }
+ 
+  .amenity-title {
+    font-size: 12px;
+    gap: 6px;
+  }
+ 
+  .amenity-title i {
+    font-size: 14px;
+  }
+ 
+  .tab-header h2 {
+    font-size: 20px;
+  }
+ 
+  /* Fitness/Swimming */
+  .my-tabs2 {
+    width: 100%;
+    padding: 0 10px;
+  }
+ 
+  .card-text h2 {
+    font-size: 22px;
+  }
+ 
+  .card-text p {
+    font-size: 13px;
+  }
+ 
+  /* Location */
+  .location-section {
+    padding: 2rem 4%;
+  }
+ 
+  .location-left h2 {
+    font-size: 22px;
+  }
+ 
+  .location-address p,
+  .location-address a {
+    font-size: 14px;
+  }
+ 
+  .transport-accordion summary {
+    font-size: 13px;
+  }
+ 
+  .location-right {
+    min-height: 250px;
+  }
+ 
+  /* Plan */
+  .plan-left h2 {
+    font-size: 20px;
+  }
+ 
+  /* History */
+  .secondholder h1 {
+    font-size: 22px;
+  }
+ 
+  .secondholder p {
+    font-size: 14px;
+  }
+ 
+  .thirdholder img {
+    height: 200px;
+  }
+ 
+  /* Section 21/22 */
+  .secondholder21 img,
+  .secondholder22 img {
+    height: 200px;
+  }
+ 
+  /* Property Details */
+  .property-details {
+    margin: 0 3%;
+  }
+ 
+  .prop-details summary {
+    font-size: 14px;
+  }
+ 
+  /* FAQ */
+  .faq-question {
+    font-size: 13px;
+    gap: 1rem;
+  }
+ 
+  .faq-answer p {
+    font-size: 13px;
+  }
+ 
+  .new1 h3 {
+    font-size: 20px;
+  }
+ 
+  /* Footer */
+  .footer-hotel-name {
+    font-size: 14px;
+  }
+ 
+  .bonvoy-logo {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+ 
+  .bonvoy-left p {
+    font-size: 13px;
+  }
+ 
+  .footer-col a {
+    font-size: 13px;
+  }
+ 
+  .footer-address p {
+    font-size: 12px;
+  }
+ 
+  .footer-details summary {
+    font-size: 14px;
+  }
+ 
+  .footer-links-wrap a {
+    font-size: 12px;
+  }
+ 
+  .footer-social {
+    gap: 0.8rem;
+  }
+ 
+  .footer-social a {
+    font-size: 16px;
+  }
+ 
+  .footer-copyright p {
+    font-size: 11px;
+  }
+ 
+  .footer-legal a {
+    font-size: 11px;
+  }
+}
